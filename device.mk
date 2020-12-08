@@ -452,3 +452,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    Retro
