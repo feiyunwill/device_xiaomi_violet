@@ -323,7 +323,11 @@ PRODUCT_PACKAGES += \
 # Packages
 PRODUCT_PACKAGES += \
     SimpleGalleryPro \
-    GoogleCameraGo
+    GoogleCameraGo \
+    VancedManager
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-VancedManager.xml:system/etc/permissions/privapp-permissions-VancedManager.xml
 
 # Perf
 PRODUCT_PACKAGES += \
