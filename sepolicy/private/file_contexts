@@ -3,3 +3,6 @@
 
 # DPM
 /system/product/bin/dpmd                      u:object_r:vendor_dpmd_exec:s0
+
+# Updater
+/data/superior_updates(/.*)?                  u:object_r:ota_package_file:s0
