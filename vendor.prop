@@ -161,6 +161,9 @@ vendor.gralloc.disable_ubwc=0
 # Keystore
 ro.hardware.keystore_desede=true
 
+#Maintainer
+ro.superior.maintainer=Nipin NA (Joker-V2)
+
 # Media
 audio.offload.video=true
 debug.stagefright.omx_default_rank=0
